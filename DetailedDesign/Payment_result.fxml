@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane prefHeight="75.0" prefWidth="163.0" />
+      <ImageView fitHeight="75.0" fitWidth="163.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@PaymentLogo.PNG" />
+         </image>
+      </ImageView>
+      <Pane layoutX="140.0" layoutY="116.0" prefHeight="75.0" prefWidth="321.0">
+         <children>
+            <Label layoutX="17.0" layoutY="14.0" text="PAYMENT RESULT!" textFill="#23ee08">
+               <font>
+                  <Font name="System Bold" size="32.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane layoutX="200.0" layoutY="200.0" prefHeight="87.0" prefWidth="200.0">
+         <children>
+            <Label layoutX="69.0" layoutY="23.0" text="Message" textFill="#615454">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Label text="Label" />
+      <Pane layoutX="200.0" layoutY="325.0" prefHeight="56.0" prefWidth="200.0">
+         <children>
+            <Button layoutX="39.0" layoutY="16.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="123.0" style="-fx-background-color: RED;" text="OK" textFill="WHITE" />
+         </children>
+      </Pane>
+   </children>
+</Pane>
